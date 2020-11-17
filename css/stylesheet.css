@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: #ccc;
+}
+
+.breakline {
+    color: #333333;
+    background-color: #333;
+    margin: 1% 0%;
+}
+
+#title {
+    padding: 0px;
+    margin: 0%;
+    font-family: Georgia;
+    font-size: 20pt;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.headelement {
+    padding-bottom: 1%;
+    padding-top: 2%;
+    font-size: 14px;
+    justify-content: space-between + safe;
+    display: inline-block;
+    flex-grow: inherit;
+}
+
+#footer {
+    align-content: space-between;
+}
+
+#copyright {
+    font-size: 12pt;
+    align-self: start;
+    text-align: start;
+}
+
+#searchbox {
+    background-color: #333;
+    border: solid 1px #333;
+    border-radius: 6px;
+    width: 100%;
+    padding: 4%;
+    margin: 1%;
+    height: 20px;
+    float: left;
+}
+
+#contactsheader {
+    font-size: 12pt;
+    align-content: end;
+    position: absolute;
+    top: 30px;
+    right: 1%;
+    float: left;
+}
+
+.space {
+    width: 40%;
+    height: 10%;
+}
+
+#header {
+    position: relative;
+}
+
+#menusbar {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient( #2b2b2b 0%, #333333 100%);
+    border: solid 1px #333;
+    border-radius: 5px;
+}
+
+.menuitem {
+    position: relative;
+    margin: 2%;
+    display: -moz-inline-stack;
+    font-style: normal;
+    text-decoration: none;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.menuitem:hover {
+    color: #ff9900;
+}
+
+.menuitem:link {
+    font-style: normal;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#imagesslider {
+    border: 10px solid #333;
+    border-radius: 5px;
+    margin: 2%;
+    align-content: center;
+    align-self: center;
+    width: auto;
+}
+
+#contactusnow {
+    justify-content: space-between + safe;
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient( #2b2b2b 0%, #333333 100%);
+    border: solid 1px #333;
+    border-radius: 5px;
+}
+
+#contactusbutton {
+    float: right;
+    color: white;
+    background-color: #ff9900;
+    border: solid 1px #333;
+    border-radius: 5px;
+    margin: 1%;
+    width: 25%;
+    height: 50px;
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    box-shadow: gray 3px;
+}
+
+.space {
+    visibility: hidden;
+    width: 25%;
+    height: 1px;
+    display: inline-block;
+}
+
+#workView {
+    justify-content: space-between;
+    display: inline-block;
+}
+
+.circle {
+    background-color: #292929;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: #333 solid 18px;
+    border-radius: 100px;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
