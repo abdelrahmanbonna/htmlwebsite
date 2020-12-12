@@ -192,6 +192,8 @@ body {
     border: #333 solid 18px;
     border-radius: 150px;
     margin: 1% 1%;
+    z-index: 1;
+    align-content: center;
 }
 
 .slideshow-container {
