@@ -24,6 +24,10 @@ body {
     font-weight: lighter;
 }
 
+#title:hover {
+    fill: #ff9900;
+}
+
 .headelement {
     padding-bottom: 1%;
     padding-top: 2%;
@@ -64,10 +68,12 @@ body {
     float: left;
 }
 
+
+/* 
 .space {
     width: 40%;
     height: 10%;
-}
+} */
 
 #header {
     position: relative;
@@ -187,13 +193,22 @@ body {
 .circle {
     background-color: #292929;
     display: inline-block;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
     border: #333 solid 18px;
     border-radius: 150px;
     margin: 1% 1%;
     z-index: 1;
     align-content: center;
+    transition-duration: 1s;
+    transform: scale(1);
+}
+
+.circle:hover {
+    transition-duration: 1s;
+    transform: scale(1.2);
 }
 
 .slideshow-container {
@@ -290,4 +305,25 @@ body {
     to {
         opacity: 1
     }
+}
+
+.subtitle {
+    font-size: large;
+    text-align: center;
+    color: #ff9900;
+}
+
+.Gallaryimage {
+    position: relative;
+    z-index: 1;
+    width: 19%;
+    height: 19%;
+    transition-duration: 1s;
+    transform: scale(1);
+}
+
+.Gallaryimage:hover {
+    z-index: 999;
+    transition-duration: 1s;
+    transform: scale(1.5);
 }

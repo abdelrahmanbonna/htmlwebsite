@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>PRO PHOTO</title>
+    <title>Home - PRO PHOTO</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Abdelrahman Bonna">
@@ -15,29 +15,24 @@
 <body>
     <header id="#header">
         <div class="headelement">
-            <span><h1 id="title">PRO PHOTO</h1>
-                Made by Abdelrahman Bonna</span>
+            <svg height="50" width="300">
+                <text id="title" x="0" y="30" fill="#ccc" >PRO PHOTO</text>
+                <text  x="0" y="45" fill="#ccc" >made by Abdelrahman Bonna</text>
+              </svg>
             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <span id="contactsheader"> 
-                <span>Tel: 01100000000 | Mail: example@outlook.com</span><br>
+                <span >Tel: 01100000000 | Mail: example@outlook.com</span><br>
             <input type="search" name="search" id="searchbox" placeholder="Search Term Here">
             </span>
 
         </div>
     </header>
-
     <hr class="breakline">
-
     <div id="menusbar">
         <center style="margin-top: 10px;">
             <a href="index.html" class="menuitem">Home</a>
-            <a href="#" class="menuitem">STYLE DEMO</a>
-            <a href="#" class="menuitem">FULL WIDTH</a>
-            <a href="#" class="menuitem">DROPDOWN</a>
-            <a href="#" class="menuitem">GALLARY</a>
-            <a href="#" class="menuitem">PORTFOLIO</a>
-            <a href="#" class="menuitem">LINK TEXT</a>
-            <a href="#" class="menuitem">LONG LINK TEXT</a>
+            <a href="gallary.html" class="menuitem">Gallary</a>
+            <a href="aboutus.html" class="menuitem">About us</a>
         </center>
     </div>
 
@@ -70,7 +65,6 @@
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <br>
     </div>
     <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
@@ -81,28 +75,27 @@
     <script src="javascript/javascript.js">
     </script>
     <hr class="breakline">
-    <center>
-        <H1 style="font-size: 20pt;"> RECENT WORK
-            <span class="space"></span> FEATURED SERVICES</H1>
 
-        <div>
-
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-
+    <div style="margin: 1%;">
+        <h1 class="subtitle">Our Clients</h1>
+        <div style="text-align: center;">
+            <div id="client1" class="circle"></div>
+            <div id="client2" class="circle"></div>
+            <div id="client3" class="circle"></div>
+            <div id="client4" class="circle"></div>
         </div>
+    </div>
 
-        <div>
-
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-
+    <div style="margin: 1%;">
+        <h1 class="subtitle">Our Team</h1>
+        <div style="text-align: center;">
+            <div id="team1" class="circle"></div>
+            <div id="team2" class="circle"></div>
+            <div id="team3" class="circle"></div>
+            <div id="team4" class="circle"></div>
         </div>
-    </center>
+    </div>
+
     <hr class="breakline">
     <div id="contactusnow">
         <span><a id="contactusbutton" href="contactus.html">CONTACT US TODAY</a></span>
