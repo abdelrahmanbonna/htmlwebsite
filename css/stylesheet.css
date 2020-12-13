@@ -183,6 +183,10 @@ body {
     margin: 1% 2%;
 }
 
+.btn:hover {
+    color: #000;
+}
+
 .space {
     visibility: hidden;
     width: 25%;
@@ -359,4 +363,15 @@ video {
     border: solid 1px #333;
     border-radius: 5px;
     padding: 1%;
+    font-size: 16pt;
+}
+
+.socialicons {
+    display: inline-block;
+    margin: 1%;
+    color: #fff;
+}
+
+.socialicons:hover {
+    color: #ff9900;
 }
