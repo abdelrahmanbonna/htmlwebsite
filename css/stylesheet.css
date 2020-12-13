@@ -206,6 +206,14 @@ body {
     transform: scale(1);
 }
 
+.circle img {
+    text-align: center;
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+}
+
 .circle:hover {
     transition-duration: 1s;
     transform: scale(1.2);
@@ -324,6 +332,6 @@ body {
 
 .Gallaryimage:hover {
     z-index: 999;
-    transition-duration: 1s;
+    transition-duration: 3s;
     transform: scale(1.5);
 }
