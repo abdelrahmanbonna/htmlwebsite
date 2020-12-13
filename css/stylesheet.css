@@ -193,6 +193,7 @@ body {
 .circle {
     background-color: #292929;
     display: inline-block;
+    box-sizing: border-box;
     width: 200px;
     height: 200px;
     max-width: 200px;
@@ -202,16 +203,17 @@ body {
     margin: 1% 1%;
     z-index: 1;
     align-content: center;
+    text-align: center;
     transition-duration: 1s;
     transform: scale(1);
 }
 
 .circle img {
-    text-align: center;
     display: block;
-    width: 200px;
-    height: 200px;
-    object-fit: fill;
+    width: 165px;
+    height: 165px;
+    border-radius: 150px;
+    object-fit: cover;
 }
 
 .circle:hover {

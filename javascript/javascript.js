@@ -24,3 +24,14 @@ function showSlides() {
     slides[slideIndex - 1].style.display = "block";
     setTimeout(showSlides, 4000);
 }
+
+
+var audio = document.getElementsByTagName("audio")[0];
+
+function playclip() {
+    audio.play();
+}
+
+function pausedSound() {
+    audio.pause();
+}
